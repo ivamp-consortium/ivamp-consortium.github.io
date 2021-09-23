@@ -2,7 +2,7 @@
 
   <h1>The iVAMP website and database <a href="https://ivamp-consortium.github.io/" target="_blank">click here</a></h1>
 
-  <article width="180em" align="left">
+  <article width="18em" align="left">
     <p>
     This is the Initiative for Venom Associated Microbes and Parasites (iVAMP) website and database. To join, subscribe to our listserv (ivamp@googlegroups.com).
     </p>
