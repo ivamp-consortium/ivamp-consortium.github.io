@@ -42,12 +42,14 @@
     background-color: #222227cd;
 
     /* Times */
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1) .45s;
+    transition-property: border-radius, height;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: .5s;
 }
 
 .warning:hover{
     /* Sizes */
-    border-radius: 0 0 5px 5px;
+    border-radius: 0px;
     height: 100%;
 }
 
@@ -79,6 +81,9 @@
 
     /* Aligns */
     cursor: pointer;
+
+    /* Times */
+    transition: border-radius cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
 }
 
 .trigger button:hover{
