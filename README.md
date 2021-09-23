@@ -1,6 +1,6 @@
 <header>
 
-  <h1>The iVAMP website and database [click here](https://ivamp-consortium.github.io/)</h1>
+  <h1>The iVAMP website and database <a href="https://ivamp-consortium.github.io/" target="_blank">click here</a></h1>
 
   <article align="left">
     <p>
