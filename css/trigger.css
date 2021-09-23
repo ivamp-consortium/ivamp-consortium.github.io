@@ -1,0 +1,87 @@
+.trigger{
+    /* Aligns */
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-y: auto;
+
+    /* Sizes */
+    width: 100%;
+    height: 100%;
+
+    /* Colors */
+    background-color: rgba(0, 132, 255, 0.981);
+    background-image: linear-gradient(0deg, red, blue);
+}
+
+.warning{
+    /* Aligns */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    overflow-y: auto;
+
+    /* Sizes */
+    padding: 20px 60px;
+    height: 80%;
+    width: 50%;
+    min-width: 450px;
+    border-radius: 0 0 45px 45px;
+
+    /* Colors */
+    background-color: #222227cd;
+
+    /* Times */
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) .45s;
+}
+
+.warning:hover{
+    /* Sizes */
+    border-radius: 0 0 5px 5px;
+    height: 100%;
+}
+
+.trigger .title{
+    /* Colors */
+    background-color: rgba(255, 0, 0, 0.24);
+    color: red;
+
+    /* Sizes */
+    border-radius: 26px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.trigger p{
+    /* Colors */
+    color: aliceblue;
+}
+
+.trigger button{
+    /* Colors */
+    background-color: rgba(101, 255, 93, 0.37);
+    border: none;
+    color: aliceblue;
+
+    /* Sizes */
+    border-radius: 20px;
+    padding: 7px 25px;
+
+    /* Aligns */
+    cursor: pointer;
+}
+
+.trigger button:hover{
+    /* Sizes */
+    border-radius: 5px;
+}

@@ -29,7 +29,7 @@ div.body{
     }
 }
 
-body {
+body, html {
     /* Sizes */
     width: 100%;
 
