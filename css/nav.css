@@ -1,0 +1,38 @@
+nav{
+    /* Aligns */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    /* Colors */
+    border-bottom: 2px solid rgb(0, 0, 46);
+}
+
+nav button{
+    /* Aligns */
+    cursor: pointer;
+
+    /* Sizes */
+    padding: 15px;
+    height: 100%;
+    width: auto;
+    font-size: 20px;
+    border: none;
+    border-radius: 45px;
+
+    /* Colors */
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(12, 12, 72, 0.741);
+
+    /* Times */
+    transition: cubic-bezier(0.2, 0.05, 0.05, 0.06) .25s;
+}
+
+nav button:hover{
+    /* Colors */
+    background-color: rgba(0, 0, 0, 0.213);
+
+    /* Sizes */
+    border-radius: 5px;
+}

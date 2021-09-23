@@ -1,35 +1,42 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>The Initiative for Venom Associated Microbes and Parasites</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="shortcut icon" type="image/x-icon" href="scripps.ico">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/pages/about">About</a></li>
-			<li><a href="/pages/people">People</a></li>
-	        	<li><a href="/pages/database">Database</a></li>
-			<li><a href="/pages/learn">Learn</a></li>
-			<li><a href="/pages/gallery">Gallery</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h2>Welcome to The Initiative for Venom Associated Microbes and Parasites (iVAMP) </h2>
-			<p> Our website and database are constantly evolving as we are less than a year old. Have a suggestion? <br>
-				To work with us and/or learn about what we're doing, subscribe to our listerv: <br>
-				<a href="https://groups.google.com/forum/#!forum/ivamp">ivamp@googlegroups.com</a><p>
-			<img src="https://raw.githubusercontent.com/ivamp-consortium/ivamp-consortium.github.io/main/images/King_Heteroscodra-maculata.jpg" width="800" height="550">
-			<p> <i>Heteroscodra maculata</i> <br>
-				This spider is an Old World species of tarantula commonly referred to as the 'Togo starburst' or the 'ornamental baboon'. <br>
-				Photo taken by Bastian Rast <p>
-		<footer>
-    		<ul>
-        		<li><a href="mailto:bysabahulhasan@gmail.com">email</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="./images/ivamp.ico">
+	<!-- END FAVICON -->
+	<!-- CSS -->
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/class_effects.css">
+	<link rel="stylesheet" href="./css/nav.css">
+	<!-- END CSS -->
+	<title>The Initiative for Venom Associated Microbes and Parasites | IVAMP</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><button class="nav_btn" onclick="getPage('home')">Home</button></li>
+			<li><button class="nav_btn" onclick="getPage('about')">About</button></li>
+			<li><button class="nav_btn" onclick="getPage('people')">People</button></li>
+			<li><button class="nav_btn" onclick="getPage('database')">Database</button></li>
+			<li><button class="nav_btn" onclick="getPage('learn')">Learn</button></li>
+			<li><button class="nav_btn" onclick="getPage('gallery')">Gallery</button></li>
+		</ul>
+	</nav>
+	<div id="root"></div>
+	<footer>
+		<ul>
+			<li><a href="mailto:bysabahulhasan@gmail.com">email</a></li>
+			<li><a href="https://github.com/ivamp-consortium">github.com/ivamp-consortium</a></li>
+		</ul>
+	</footer>
+	<!-- jQuery and JS -->
+	<script src="./js/jquery.js"></script>
+	<script src="./js/ajax.js"></script>
+	<script src="./js/img_body.js"></script>
+	<script src="./js/script.js"></script>
+	<!-- END jQuery and JS -->
+</body>
 </html>
