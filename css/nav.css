@@ -36,3 +36,21 @@ nav button:hover{
     /* Sizes */
     border-radius: 5px;
 }
+
+nav ul, footer ul {
+    /* Sizes */
+    font-size: 1.25em;
+    padding: 0px;
+    font-weight: bold;
+
+    /* Aligns */
+    font-family:'Helvetica', 'Helvetica', 'Helvetica';
+    list-style: none;
+}
+
+nav ul li, footer ul li {
+    /* Aligns */
+    font-family:'Helvetica', 'Helvetica', 'Helvetica';
+    display: inline;
+    margin-right: 20px;
+}
