@@ -94,7 +94,7 @@ h1, h2, h3, p{
     margin: 35px auto;
 }
 
-img{
+img:not(.quality){
     /* Aligns */
-    image-rendering: optimizeQuality !important;
+    image-rendering: optimizeSpeed !important;
 }
