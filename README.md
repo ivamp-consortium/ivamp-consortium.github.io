@@ -11,7 +11,7 @@
   <article>
     <p>Contact: Sabah Ul-Hasan (bysabahulhasan@gmail.com)</p>
   </article>
-
-  <p><strong>New dev contributer erikfritas 😐</strong></p>
+  
+  <p><strong>Webpage Contributors:</strong> Sabah Ul-Hasan (<a href="github.com/sabahzero" target="_blank">@sabahzero</a>), @erikfritas, @josephmidura </p>
 
 </header>
