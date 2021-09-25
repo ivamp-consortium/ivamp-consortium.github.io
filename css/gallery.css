@@ -15,6 +15,11 @@
     margin-bottom: 20px;
 }
 
+#images{
+    /* Sizes */
+    width: 100%;
+}
+
 .cards{
     /* Aligns */
     display: flex;

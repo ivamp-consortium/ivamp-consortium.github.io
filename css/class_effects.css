@@ -98,3 +98,43 @@ img:not(.quality){
     /* Aligns */
     image-rendering: optimizeSpeed !important;
 }
+
+.window{
+    /* Aligns */
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Sizes */
+    width: 60%;
+    height: 60%;
+    padding-bottom: 30px;
+    border-radius: 45px;
+
+    /* Colors */
+    background-color: rgb(63, 84, 102);
+    background-image: linear-gradient(to top, rgb(42, 42, 68), rgb(0, 0, 0));
+    color: aliceblue;
+}
+
+@keyframes pipe_animation{
+    0%, 100%{
+        /* Aligns */
+        opacity: 0;
+    } 50%{
+        /* Aligns */
+        opacity: 1;
+    }
+}
+
+.message::after{
+    /* Aligns */
+    content: "|";
+    animation-name: pipe_animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
