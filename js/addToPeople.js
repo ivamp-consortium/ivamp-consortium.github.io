@@ -251,7 +251,7 @@ const imagesPeople = [
     }
 ]
 
-let people_row
+let people_row = ""
 
 function loadPeople(){
     for (let i=0; i < imagesPeople.length; i+=1){
