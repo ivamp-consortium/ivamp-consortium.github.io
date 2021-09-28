@@ -12,6 +12,6 @@
     <p>Contact: Sabah Ul-Hasan (bysabahulhasan@gmail.com)</p>
   </article>
   
-  <p><strong>Webpage Contributors:</strong> Sabah Ul-Hasan (<a href="github.com/sabahzero" target="_blank">@sabahzero</a>), @erikfritas, @josephmidura </p>
+  <p><strong>Webpage Contributors:</strong> Sabah Ul-Hasan (<a href="https://github.com/sabahzero" target="_blank">@sabahzero</a>), @erikfritas, @josephmidura </p>
 
 </header>
