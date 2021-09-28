@@ -64,6 +64,15 @@ p {
 
     /* Colors */
     color: #2b2b28;
+
+    /* Times */
+    transition: .5s;
+}
+
+p:hover{
+    /* Colors */
+    background-color: rgba(0, 0, 0, 0.172);
+    backdrop-filter: blur(5px);
 }
 
 footer {

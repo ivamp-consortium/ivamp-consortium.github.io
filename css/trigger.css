@@ -59,6 +59,7 @@
     color: red;
 
     /* Sizes */
+    font-size: 30px;
     border-radius: 26px;
     padding: 20px;
     margin-bottom: 15px;
@@ -67,6 +68,9 @@
 .trigger p{
     /* Colors */
     color: aliceblue;
+
+    /* Sizes */
+    font-size: 25px;
 }
 
 .trigger button{
@@ -78,6 +82,7 @@
     /* Sizes */
     border-radius: 20px;
     padding: 7px 25px;
+    font-size: 20px;
 
     /* Aligns */
     cursor: pointer;
