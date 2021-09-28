@@ -1,0 +1,18 @@
+@media screen and (max-width: 820px) {
+    *{
+        /* Aligns */
+        overflow-x: hidden;
+    }
+
+    :not(.gallery) img{
+        /* Sizes */
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery .cards{
+        /* Aligns */
+        display: flex;
+        flex-direction: column;
+    }
+}
