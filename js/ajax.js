@@ -23,14 +23,6 @@ function getPage(page){
             })
         } else if (page === 'people'){
             loadPeople()
-            // loading
-            warning.message()
-            $('#people').css("display", 'none')
-            $('#people').ready(()=>{
-                warning.close()
-                warning.stopMessage()
-                $('#people').css('display', 'block')
-            })
         }
     })
 }
