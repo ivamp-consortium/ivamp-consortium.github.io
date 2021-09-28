@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Rubik", sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+}
+
+.about *{
+    /* Font */
+    font-family: "Rubik", sans-serif;
+}
