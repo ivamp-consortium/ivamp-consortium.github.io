@@ -4,9 +4,15 @@
         overflow-x: hidden;
     }
 
-    img{
+    :not(.gallery) img{
         /* Sizes */
         width: 100%;
         height: auto;
+    }
+
+    .gallery .cards{
+        /* Aligns */
+        display: flex;
+        flex-direction: column;
     }
 }
