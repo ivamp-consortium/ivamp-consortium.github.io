@@ -1,0 +1,22 @@
+.row-about{
+    /* Aligns */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about img{
+    /* Sizes */
+    width: 60%;
+    border: 5px;
+
+    /* Times */
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) .5s;
+}
+
+.about img:hover{
+    /* Sizes */
+    transform: scale(1.2);
+    border-radius: 20px;
+}

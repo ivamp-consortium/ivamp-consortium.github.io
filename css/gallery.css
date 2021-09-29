@@ -35,6 +35,7 @@
 .card{
     /* Colors */
     background-color: rgba(164, 204, 238, 0.576);
+    cursor: pointer;
 
     /* Sizes */
     padding: 15px;

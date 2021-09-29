@@ -147,3 +147,15 @@ img:not(.quality){
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+
+button{
+    /* Aligns */
+    cursor: pointer;
+}
+
+.exit{
+    /* Colors */
+    background-color: red;
+    color: white;
+    border: none;
+}

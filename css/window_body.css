@@ -1,0 +1,61 @@
+div.window_body{
+    /* Aligns */
+    display: none;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 10%;
+
+    /* Sizes */
+    width: 80%;
+    height: 80%;
+    background-size: auto 100%;
+    padding: 20px;
+    border-radius: 35px;
+
+    /* Colors */
+    background-color: rgb(18, 17, 28);
+    color: aliceblue;
+}
+
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    div.window_body {
+        /* Aligns */
+        backdrop-filter: blur(8px);
+    }
+}
+
+div.window_body .exit{
+    /* Aligns */
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    /* Sizes */
+    padding: 10px;
+    font-size: 20px;
+
+    /* Times */
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .5s;
+}
+
+div.window_body .exit:hover{
+    /* Sizes */
+    font-size: 25px;
+}
+
+div.window_body div.window_description{
+    /* Aligns */
+    margin: auto;
+    display: none;
+
+    /* Colors */
+    background-color: rgba(34, 34, 49, 0.556);
+
+    /* Sizes */
+    padding: 10px;
+    border-radius: 35px;
+}

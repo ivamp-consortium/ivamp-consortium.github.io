@@ -2,6 +2,7 @@
  * return the page in div#root according to
  * current context
  */
+
 function getPage(page){
     $.ajax({
         method: "GET",
@@ -21,9 +22,8 @@ function getPage(page){
                 warning.stopMessage()
                 $('#images').css('display', 'block')
             })
-        } else if (page === 'people'){
+        } else if (page === 'people')
             loadPeople()
-        }
     })
 }
 
