@@ -16,11 +16,11 @@ function getPage(page){
             loadCards()
             // loading
             warning.write_message()
-            $('#images').css("display", 'none')
             $('#images').ready(()=>{
-                warning.close()
-                warning.stopMessage()
-                $('#images').css('display', 'block')
+                setTimeout(()=>{
+                    warning.close()
+                    warning.stopMessage()
+                }, 5000) // 5 seconds for load all page
             })
         } else if (page === 'people')
             loadPeople()
