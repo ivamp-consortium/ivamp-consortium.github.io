@@ -18,9 +18,9 @@ function getPage(page){
             warning.write_message()
             $('#images').css("display", 'none')
             $('#images').ready(()=>{
-                //warning.close()
-                //warning.stopMessage()
-                //$('#images').css('display', 'block')
+                warning.close()
+                warning.stopMessage()
+                $('#images').css('display', 'block')
             })
         } else if (page === 'people')
             loadPeople()
