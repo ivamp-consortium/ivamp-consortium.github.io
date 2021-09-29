@@ -15,12 +15,12 @@ function getPage(page){
         if (page === 'gallery'){
             loadCards()
             // loading
-            warning.message()
+            warning.write_message()
             $('#images').css("display", 'none')
             $('#images').ready(()=>{
-                warning.close()
-                warning.stopMessage()
-                $('#images').css('display', 'block')
+                //warning.close()
+                //warning.stopMessage()
+                //$('#images').css('display', 'block')
             })
         } else if (page === 'people')
             loadPeople()
